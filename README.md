@@ -1,5 +1,28 @@
 # Forbidden-Island
 
+# Project Background Information
+This project began life as a group project by Conor Wilson (me) and Robert Riordan for their end-of-semester project in
+the ***Software Engineering (COMP41670)*** module at University College Dublin. This module was completed as part of our
+journey to completing our ME degree in Electronic and Computer Engineering, and received an A grade when it was
+submitted on the 23rd of December 2019. The assignment brief called for a digital recreation of the  [Forbidden Island
+boardgame](https://boardgamegeek.com/boardgame/65244/forbidden-island) that could be played within the terminal.
+
+This project was a real highlight of our degree, and was the first time either of us had worked (or attempted to work)
+with professional programming principles in mind. Since then, we have both become professional Software Engineers, and
+I (Conor) have decided to return to this project as a side project, and I intend to develop it into a desktop 
+application for a bit of fun. 
+
+Unfortunately, due to both of our university emails being no-longer available (something that we were assured by the
+university would not happen), as well as poor archiving on my part, the blame and credit history of this project has
+been lost. With this in mind, you can assume that any code committed to this repo by the @CnrWilson account (my old
+university account that I was actually still logged into locally on my machine when I created this repo) can be credited
+equally to both Robert and me. In fact, the entirety of the code base including mistakes and weird code design has been
+preserved within the first commit made by this account. In the future I may clone this original version over to its own
+repo for the sake of nostalgia and maintaining the orignial legacy of this project.
+
+Below is the contents of the original ReadMe for the submitted assignment, but this will probably be changed around in
+the future as this side project evolves.
+
 ## Software Engineering - COMP41670
 
 Authors: Robert Riordan and Conor Wilson
