@@ -1,0 +1,28 @@
+title Waters Rise
+
+participant Player
+participant TreasureDeck
+participant WatersRiseCard
+participant GameLogic
+participant FloodDeck
+participant User Interface
+
+Player->TreasureDeck:draw
+activate TreasureDeck
+TreasureDeck->TreasureDeck:draw
+opt card instanceof WatersRiseCard
+  TreasureDeck->WatersRiseCard:use
+  activate WatersRiseCard
+  WatersRiseCard->GameLogic:watersRise
+  activate GameLogic
+  opt Water level above max
+    GameLogic->User Interface:gameOverWaterLevelToHigh
+  end
+  GameLogic->FloodDeck:shuffle
+  GameLogic->User Interface:watersRising
+  deactivate GameLogic
+  deactivate WatersRiseCard
+  TreasureDeck->TreasureDeck:discard
+end
+TreasureDeck->>Player:card
+deactivate TreasureDeck

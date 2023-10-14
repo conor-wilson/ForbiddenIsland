@@ -1,0 +1,10 @@
+package enums;
+
+public enum Action {
+	MOVE,
+	SHORE_UP,
+	GIVE_TREASURE,
+	CAPTURE_TREASURE,
+	USE_SPECIAL_ACTION_CARD,
+	OPTIONS;
+}

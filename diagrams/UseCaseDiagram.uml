@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_yiAgYEOlEeuX1NLDJw69SQ" name="diagrams">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_y3nkAEOlEeuX1NLDJw69SQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_1P7fMEOlEeuX1NLDJw69SQ" name="Forbidden Island">
+    <generalization xmi:type="uml:Generalization" xmi:id="_YKDJoEOvEeuX1NLDJw69SQ" general="_Wn3aoEOuEeuX1NLDJw69SQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_2KY8UEOlEeuX1NLDJw69SQ" name="User"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_tC854EOpEeuX1NLDJw69SQ" name="Game Components"/>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_1ZdVAEOtEeuX1NLDJw69SQ" name="Setup Game" useCase="_VnUjoEOuEeuX1NLDJw69SQ _V6diEEOuEeuX1NLDJw69SQ _WQ_LsEOuEeuX1NLDJw69SQ _Wn3aoEOuEeuX1NLDJw69SQ _W_epYEOuEeuX1NLDJw69SQ _YFvt4EOuEeuX1NLDJw69SQ _YXI_4EOuEeuX1NLDJw69SQ _YqR-UEOuEeuX1NLDJw69SQ _ZIlq8EOuEeuX1NLDJw69SQ _ZimtcEOuEeuX1NLDJw69SQ _ayeZ4EOuEeuX1NLDJw69SQ">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_SYWGMEOuEeuX1NLDJw69SQ" name="Setup UI"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_VnUjoEOuEeuX1NLDJw69SQ" name="Setup UI" subject="_1ZdVAEOtEeuX1NLDJw69SQ"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_V6diEEOuEeuX1NLDJw69SQ" name="Setup Game Logic" subject="_1ZdVAEOtEeuX1NLDJw69SQ"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_WQ_LsEOuEeuX1NLDJw69SQ" name="Setup Treasure Deck" subject="_1ZdVAEOtEeuX1NLDJw69SQ"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Wn3aoEOuEeuX1NLDJw69SQ" name="Setup Game" subject="_1ZdVAEOtEeuX1NLDJw69SQ">
+      <generalization xmi:type="uml:Generalization" xmi:id="_fpy4sEOvEeuX1NLDJw69SQ" general="_tC854EOpEeuX1NLDJw69SQ"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_W_epYEOuEeuX1NLDJw69SQ" name="Setup Player List" subject="_1ZdVAEOtEeuX1NLDJw69SQ"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_YFvt4EOuEeuX1NLDJw69SQ" name="Setup Board" subject="_1ZdVAEOtEeuX1NLDJw69SQ"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_YXI_4EOuEeuX1NLDJw69SQ" name="Setup Flood Deck" subject="_1ZdVAEOtEeuX1NLDJw69SQ"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_YqR-UEOuEeuX1NLDJw69SQ" name="Setup Players" subject="_1ZdVAEOtEeuX1NLDJw69SQ"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ZIlq8EOuEeuX1NLDJw69SQ" name="Setup Tiles" subject="_1ZdVAEOtEeuX1NLDJw69SQ"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ZimtcEOuEeuX1NLDJw69SQ" name="Flood Initial 6 Tiles" subject="_1ZdVAEOtEeuX1NLDJw69SQ">
+      <generalization xmi:type="uml:Generalization" xmi:id="_0U-jwEOuEeuX1NLDJw69SQ" general="_YXI_4EOuEeuX1NLDJw69SQ"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_14JmsEOuEeuX1NLDJw69SQ" general="_ZIlq8EOuEeuX1NLDJw69SQ"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ayeZ4EOuEeuX1NLDJw69SQ" name="Assign Player Types" subject="_1ZdVAEOtEeuX1NLDJw69SQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_4AH_0EOuEeuX1NLDJw69SQ" name="&lt;&lt;include>>" client="_Wn3aoEOuEeuX1NLDJw69SQ" supplier="_V6diEEOuEeuX1NLDJw69SQ"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_-_F9EEOuEeuX1NLDJw69SQ" name="&lt;&lt;include>>" client="_Wn3aoEOuEeuX1NLDJw69SQ" supplier="_WQ_LsEOuEeuX1NLDJw69SQ"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_BpwMgEOvEeuX1NLDJw69SQ" name="&lt;&lt;include>>" client="_Wn3aoEOuEeuX1NLDJw69SQ" supplier="_VnUjoEOuEeuX1NLDJw69SQ"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_FG0wUEOvEeuX1NLDJw69SQ" name="&lt;&lt;include>>" client="_Wn3aoEOuEeuX1NLDJw69SQ" supplier="_YFvt4EOuEeuX1NLDJw69SQ"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_L-KbkEOvEeuX1NLDJw69SQ" name="&lt;&lt;include>>" client="_W_epYEOuEeuX1NLDJw69SQ" supplier="_YqR-UEOuEeuX1NLDJw69SQ"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_NQu2sEOvEeuX1NLDJw69SQ" name="&lt;&lt;include>>" client="_YqR-UEOuEeuX1NLDJw69SQ" supplier="_ayeZ4EOuEeuX1NLDJw69SQ"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_OkwqYEOvEeuX1NLDJw69SQ" name="&lt;&lt;include>>" client="_YFvt4EOuEeuX1NLDJw69SQ" supplier="_ZIlq8EOuEeuX1NLDJw69SQ"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_PqGh0EOvEeuX1NLDJw69SQ" name="&lt;&lt;include>>" client="_YFvt4EOuEeuX1NLDJw69SQ" supplier="_ZimtcEOuEeuX1NLDJw69SQ"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_kOjdUEOvEeuX1NLDJw69SQ" name="&lt;&lt;include>>" client="_2KY8UEOlEeuX1NLDJw69SQ" supplier="_yiAgYEOlEeuX1NLDJw69SQ"/>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_xms4QEOxEeuBrN5kSbKZYA" name="Game Loop" useCase="_EAghIEOyEeuBrN5kSbKZYA _RDJRAEOyEeuBrN5kSbKZYA _dTDG8EOzEeuBrN5kSbKZYA _87MZYEOzEeuBrN5kSbKZYA _PThbkEO0EeuBrN5kSbKZYA _cNR8QEO0EeuBrN5kSbKZYA _h_a6AEO0EeuBrN5kSbKZYA _jj918EO0EeuBrN5kSbKZYA _WceecEO4EeuBrN5kSbKZYA _Ac7t4EPMEeuBrN5kSbKZYA">
+    <generalization xmi:type="uml:Generalization" xmi:id="_28bNgEO2EeuBrN5kSbKZYA" general="_yDJKYEO2EeuBrN5kSbKZYA"/>
+    <generalization xmi:type="uml:Generalization" xmi:id="_Go_-oEO4EeuBrN5kSbKZYA" general="_zkUCMEO2EeuBrN5kSbKZYA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_EAghIEOyEeuBrN5kSbKZYA" name="Game Loop" subject="_xms4QEOxEeuBrN5kSbKZYA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_RDJRAEOyEeuBrN5kSbKZYA" name="Execute Round of Gameplay" subject="_xms4QEOxEeuBrN5kSbKZYA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_dTDG8EOzEeuBrN5kSbKZYA" name="Take Player's Turn" subject="_xms4QEOxEeuBrN5kSbKZYA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_87MZYEOzEeuBrN5kSbKZYA" name="Flood Tiles" subject="_xms4QEOxEeuBrN5kSbKZYA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_PThbkEO0EeuBrN5kSbKZYA" name="Select Turn Actions" subject="_xms4QEOxEeuBrN5kSbKZYA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_cNR8QEO0EeuBrN5kSbKZYA" name="Pull Treasure Cards" subject="_xms4QEOxEeuBrN5kSbKZYA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_h_a6AEO0EeuBrN5kSbKZYA" name="Check for Win Condition" subject="_xms4QEOxEeuBrN5kSbKZYA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_jj918EO0EeuBrN5kSbKZYA" name="Check for Loss Condition" subject="_xms4QEOxEeuBrN5kSbKZYA">
+      <generalization xmi:type="uml:Generalization" xmi:id="_3zGW0EO2EeuBrN5kSbKZYA" general="_yDJKYEO2EeuBrN5kSbKZYA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_WceecEO4EeuBrN5kSbKZYA" name="Display Board" subject="_xms4QEOxEeuBrN5kSbKZYA">
+      <generalization xmi:type="uml:Generalization" xmi:id="_jmArEEO5EeuBrN5kSbKZYA" general="_zkUCMEO2EeuBrN5kSbKZYA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Ac7t4EPMEeuBrN5kSbKZYA" name="Prompt Action Card Use" subject="_xms4QEOxEeuBrN5kSbKZYA">
+      <generalization xmi:type="uml:Generalization" xmi:id="_YO6VUEPMEeuBrN5kSbKZYA" general="_zkUCMEO2EeuBrN5kSbKZYA"/>
+    </ownedUseCase>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_25rNwEOxEeuBrN5kSbKZYA" name="Forbidden Island">
+    <generalization xmi:type="uml:Generalization" xmi:id="_25rNwUOxEeuBrN5kSbKZYA" general="_Wn3aoEOuEeuX1NLDJw69SQ"/>
+    <generalization xmi:type="uml:Generalization" xmi:id="_lee3UEOzEeuBrN5kSbKZYA" general="_EAghIEOyEeuBrN5kSbKZYA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_28NH4EOyEeuBrN5kSbKZYA" name="&lt;&lt;include>>" client="_Wn3aoEOuEeuX1NLDJw69SQ" supplier="_YXI_4EOuEeuX1NLDJw69SQ"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="__pQ-oEOyEeuBrN5kSbKZYA" name="&lt;&lt;include>>" client="_Wn3aoEOuEeuX1NLDJw69SQ" supplier="_W_epYEOuEeuX1NLDJw69SQ"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_oQOmMEOzEeuBrN5kSbKZYA" name="&lt;&lt;include>>" client="_EAghIEOyEeuBrN5kSbKZYA" supplier="_RDJRAEOyEeuBrN5kSbKZYA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_tnEIAEOzEeuBrN5kSbKZYA" name="&lt;&lt;include>>" client="_RDJRAEOyEeuBrN5kSbKZYA" supplier="_xms4QEOxEeuBrN5kSbKZYA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_nBynsEO0EeuBrN5kSbKZYA" name="&lt;&lt;include>>" client="_EAghIEOyEeuBrN5kSbKZYA" supplier="_h_a6AEO0EeuBrN5kSbKZYA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_3c9ZoEO0EeuBrN5kSbKZYA" name="&lt;&lt;include>>" client="_EAghIEOyEeuBrN5kSbKZYA" supplier="_jj918EO0EeuBrN5kSbKZYA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_FlaiEEO1EeuBrN5kSbKZYA" name="&lt;&lt;include>>" client="_dTDG8EOzEeuBrN5kSbKZYA" supplier="_xms4QEOxEeuBrN5kSbKZYA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_UiBEQEO1EeuBrN5kSbKZYA" name="&lt;&lt;include>>" client="_xms4QEOxEeuBrN5kSbKZYA" supplier="_cNR8QEO0EeuBrN5kSbKZYA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_ejnFAEO1EeuBrN5kSbKZYA" name="&lt;&lt;include>>" client="_dTDG8EOzEeuBrN5kSbKZYA" supplier="_PThbkEO0EeuBrN5kSbKZYA"/>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_seTo0EO2EeuBrN5kSbKZYA" name="Turn Action Selection" useCase="_QYEhcEO3EeuBrN5kSbKZYA _Uhd_wEO3EeuBrN5kSbKZYA _Vb19UEO3EeuBrN5kSbKZYA _WSq3oEO3EeuBrN5kSbKZYA _XGfhQEO3EeuBrN5kSbKZYA _AdG7wEPGEeuBrN5kSbKZYA _DWnfgEPGEeuBrN5kSbKZYA _D_vfkEPHEeuBrN5kSbKZYA _E8CvwEPHEeuBrN5kSbKZYA _Mn_5YEPIEeuBrN5kSbKZYA _syUr0EPIEeuBrN5kSbKZYA">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_QYEhcEO3EeuBrN5kSbKZYA" name="Take 3 Actions" subject="_seTo0EO2EeuBrN5kSbKZYA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Uhd_wEO3EeuBrN5kSbKZYA" name="Move" subject="_seTo0EO2EeuBrN5kSbKZYA">
+      <generalization xmi:type="uml:Generalization" xmi:id="_pTF2wEPGEeuBrN5kSbKZYA" general="_eC2RkEPGEeuBrN5kSbKZYA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Vb19UEO3EeuBrN5kSbKZYA" name="Shore Up" subject="_seTo0EO2EeuBrN5kSbKZYA">
+      <generalization xmi:type="uml:Generalization" xmi:id="_nxkZoEPGEeuBrN5kSbKZYA" general="_eC2RkEPGEeuBrN5kSbKZYA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_WSq3oEO3EeuBrN5kSbKZYA" name="Give Treasure" subject="_seTo0EO2EeuBrN5kSbKZYA">
+      <generalization xmi:type="uml:Generalization" xmi:id="_h5aTcEPGEeuBrN5kSbKZYA" general="_eC2RkEPGEeuBrN5kSbKZYA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_XGfhQEO3EeuBrN5kSbKZYA" name="Capture Treasure" subject="_seTo0EO2EeuBrN5kSbKZYA">
+      <generalization xmi:type="uml:Generalization" xmi:id="_jr5kwEPGEeuBrN5kSbKZYA" general="_eC2RkEPGEeuBrN5kSbKZYA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_AdG7wEPGEeuBrN5kSbKZYA" name="Display Hands" subject="_seTo0EO2EeuBrN5kSbKZYA">
+      <generalization xmi:type="uml:Generalization" xmi:id="_431hkEPHEeuBrN5kSbKZYA" general="_0bMXIEPHEeuBrN5kSbKZYA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_DWnfgEPGEeuBrN5kSbKZYA" name="Use Action Card" subject="_seTo0EO2EeuBrN5kSbKZYA">
+      <generalization xmi:type="uml:Generalization" xmi:id="_jsWbQEPHEeuBrN5kSbKZYA" general="_eC2RkEPGEeuBrN5kSbKZYA"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_No2H0EPHEeuBrN5kSbKZYA" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_PlVpsUPHEeuBrN5kSbKZYA" name="ExtensionPoint2"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_D_vfkEPHEeuBrN5kSbKZYA" name="Use Sandbag" subject="_seTo0EO2EeuBrN5kSbKZYA">
+      <extend xmi:type="uml:Extend" xmi:id="_No1gwEPHEeuBrN5kSbKZYA" extendedCase="_DWnfgEPGEeuBrN5kSbKZYA" extensionLocation="_No2H0EPHEeuBrN5kSbKZYA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_E8CvwEPHEeuBrN5kSbKZYA" name="Use Helicopter Lift" subject="_seTo0EO2EeuBrN5kSbKZYA">
+      <extend xmi:type="uml:Extend" xmi:id="_PlVpsEPHEeuBrN5kSbKZYA" extendedCase="_DWnfgEPGEeuBrN5kSbKZYA" extensionLocation="_PlVpsUPHEeuBrN5kSbKZYA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Mn_5YEPIEeuBrN5kSbKZYA" name="End Turn Early" subject="_seTo0EO2EeuBrN5kSbKZYA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_syUr0EPIEeuBrN5kSbKZYA" name="Quit" subject="_seTo0EO2EeuBrN5kSbKZYA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_yDJKYEO2EeuBrN5kSbKZYA" name="GameLogic"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_zkUCMEO2EeuBrN5kSbKZYA" name="User Interface"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_9opYcEO3EeuBrN5kSbKZYA" name="Game Components"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_HZBGUEO4EeuBrN5kSbKZYA" name="Player">
+    <generalization xmi:type="uml:Generalization" xmi:id="_MlWBQEO4EeuBrN5kSbKZYA" general="_PThbkEO0EeuBrN5kSbKZYA"/>
+    <generalization xmi:type="uml:Generalization" xmi:id="_DXchwEPNEeuBrN5kSbKZYA" general="_Ac7t4EPMEeuBrN5kSbKZYA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_giqEQEO4EeuBrN5kSbKZYA" name="&lt;&lt;include>>" client="_dTDG8EOzEeuBrN5kSbKZYA" supplier="_WceecEO4EeuBrN5kSbKZYA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YffCkEO5EeuBrN5kSbKZYA" memberEnd="_YfiF4EO5EeuBrN5kSbKZYA _Yfj7EEO5EeuBrN5kSbKZYA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Yfg3wEO5EeuBrN5kSbKZYA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Yfhe0EO5EeuBrN5kSbKZYA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YfiF4EO5EeuBrN5kSbKZYA" name="gamelogic" type="_yDJKYEO2EeuBrN5kSbKZYA" association="_YffCkEO5EeuBrN5kSbKZYA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Yfj7EEO5EeuBrN5kSbKZYA" name="flood tiles" type="_87MZYEOzEeuBrN5kSbKZYA" association="_YffCkEO5EeuBrN5kSbKZYA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_awMg8EO5EeuBrN5kSbKZYA" memberEnd="_awNIAkO5EeuBrN5kSbKZYA _awNvEEO5EeuBrN5kSbKZYA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_awNIAEO5EeuBrN5kSbKZYA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_awNIAUO5EeuBrN5kSbKZYA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_awNIAkO5EeuBrN5kSbKZYA" name="game components" type="_9opYcEO3EeuBrN5kSbKZYA" association="_awMg8EO5EeuBrN5kSbKZYA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_awNvEEO5EeuBrN5kSbKZYA" name="flood tiles" type="_87MZYEOzEeuBrN5kSbKZYA" association="_awMg8EO5EeuBrN5kSbKZYA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_eRmyMEO5EeuBrN5kSbKZYA" memberEnd="_eRnZQkO5EeuBrN5kSbKZYA _eRnZQ0O5EeuBrN5kSbKZYA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eRnZQEO5EeuBrN5kSbKZYA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eRnZQUO5EeuBrN5kSbKZYA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_eRnZQkO5EeuBrN5kSbKZYA" name="game components" type="_9opYcEO3EeuBrN5kSbKZYA" association="_eRmyMEO5EeuBrN5kSbKZYA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_eRnZQ0O5EeuBrN5kSbKZYA" name="pull treasure cards" type="_cNR8QEO0EeuBrN5kSbKZYA" association="_eRmyMEO5EeuBrN5kSbKZYA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_t8bFQEO5EeuBrN5kSbKZYA" memberEnd="_t8cTYkO5EeuBrN5kSbKZYA _t8c6cEO5EeuBrN5kSbKZYA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_t8cTYEO5EeuBrN5kSbKZYA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_t8cTYUO5EeuBrN5kSbKZYA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_t8cTYkO5EeuBrN5kSbKZYA" name="pull treasure cards" type="_cNR8QEO0EeuBrN5kSbKZYA" association="_t8bFQEO5EeuBrN5kSbKZYA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_t8c6cEO5EeuBrN5kSbKZYA" name="player" type="_HZBGUEO4EeuBrN5kSbKZYA" association="_t8bFQEO5EeuBrN5kSbKZYA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_nkCtQEPBEeuBrN5kSbKZYA" name="Player">
+    <generalization xmi:type="uml:Generalization" xmi:id="_QxCdQEPGEeuBrN5kSbKZYA" general="_QYEhcEO3EeuBrN5kSbKZYA"/>
+    <generalization xmi:type="uml:Generalization" xmi:id="_-OJUYEPGEeuBrN5kSbKZYA" general="_DWnfgEPGEeuBrN5kSbKZYA"/>
+    <generalization xmi:type="uml:Generalization" xmi:id="_vIK-UEPHEeuBrN5kSbKZYA" general="_AdG7wEPGEeuBrN5kSbKZYA"/>
+    <generalization xmi:type="uml:Generalization" xmi:id="_XhYdwEPIEeuBrN5kSbKZYA" general="_Mn_5YEPIEeuBrN5kSbKZYA"/>
+    <generalization xmi:type="uml:Generalization" xmi:id="_zXiFQEPIEeuBrN5kSbKZYA" general="_syUr0EPIEeuBrN5kSbKZYA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Ix3csEPFEeuBrN5kSbKZYA" name="&lt;&lt;include>>" client="_QYEhcEO3EeuBrN5kSbKZYA" supplier="_Uhd_wEO3EeuBrN5kSbKZYA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_L-zSwEPFEeuBrN5kSbKZYA" name="&lt;&lt;include>>" client="_QYEhcEO3EeuBrN5kSbKZYA" supplier="_Vb19UEO3EeuBrN5kSbKZYA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Wlm5YEPFEeuBrN5kSbKZYA" name="&lt;&lt;include>>" client="_QYEhcEO3EeuBrN5kSbKZYA" supplier="_XGfhQEO3EeuBrN5kSbKZYA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_cU9o4EPFEeuBrN5kSbKZYA" name="&lt;&lt;include>>" client="_QYEhcEO3EeuBrN5kSbKZYA" supplier="_WSq3oEO3EeuBrN5kSbKZYA"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ynczgEPFEeuBrN5kSbKZYA" name="Game Logic"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_eC2RkEPGEeuBrN5kSbKZYA" name="Game Components"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0K2DcEPGEeuBrN5kSbKZYA" memberEnd="_0K2qgUPGEeuBrN5kSbKZYA _0K2qgkPGEeuBrN5kSbKZYA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0K2DcUPGEeuBrN5kSbKZYA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0K2qgEPGEeuBrN5kSbKZYA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0K2qgUPGEeuBrN5kSbKZYA" name="game logic" type="_ynczgEPFEeuBrN5kSbKZYA" association="_0K2DcEPGEeuBrN5kSbKZYA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0K2qgkPGEeuBrN5kSbKZYA" name="give treasure" type="_WSq3oEO3EeuBrN5kSbKZYA" association="_0K2DcEPGEeuBrN5kSbKZYA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_12dQsEPGEeuBrN5kSbKZYA" memberEnd="_12d3wkPGEeuBrN5kSbKZYA _12d3w0PGEeuBrN5kSbKZYA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_12d3wEPGEeuBrN5kSbKZYA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_12d3wUPGEeuBrN5kSbKZYA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_12d3wkPGEeuBrN5kSbKZYA" name="game logic" type="_ynczgEPFEeuBrN5kSbKZYA" association="_12dQsEPGEeuBrN5kSbKZYA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_12d3w0PGEeuBrN5kSbKZYA" name="move" type="_Uhd_wEO3EeuBrN5kSbKZYA" association="_12dQsEPGEeuBrN5kSbKZYA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_2mN5sEPGEeuBrN5kSbKZYA" memberEnd="_2mOgwkPGEeuBrN5kSbKZYA _2mOgw0PGEeuBrN5kSbKZYA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2mOgwEPGEeuBrN5kSbKZYA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2mOgwUPGEeuBrN5kSbKZYA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2mOgwkPGEeuBrN5kSbKZYA" name="game logic" type="_ynczgEPFEeuBrN5kSbKZYA" association="_2mN5sEPGEeuBrN5kSbKZYA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2mOgw0PGEeuBrN5kSbKZYA" name="shore up" type="_Vb19UEO3EeuBrN5kSbKZYA" association="_2mN5sEPGEeuBrN5kSbKZYA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3YaysEPGEeuBrN5kSbKZYA" memberEnd="_3YbZwkPGEeuBrN5kSbKZYA _3YbZw0PGEeuBrN5kSbKZYA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3YbZwEPGEeuBrN5kSbKZYA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3YbZwUPGEeuBrN5kSbKZYA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3YbZwkPGEeuBrN5kSbKZYA" name="game logic" type="_ynczgEPFEeuBrN5kSbKZYA" association="_3YaysEPGEeuBrN5kSbKZYA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3YbZw0PGEeuBrN5kSbKZYA" name="capture treasure" type="_XGfhQEO3EeuBrN5kSbKZYA" association="_3YaysEPGEeuBrN5kSbKZYA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_caTxAEPHEeuBrN5kSbKZYA" memberEnd="_caTxA0PHEeuBrN5kSbKZYA _caTxBEPHEeuBrN5kSbKZYA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_caTxAUPHEeuBrN5kSbKZYA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_caTxAkPHEeuBrN5kSbKZYA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_caTxA0PHEeuBrN5kSbKZYA" name="game logic" type="_ynczgEPFEeuBrN5kSbKZYA" association="_caTxAEPHEeuBrN5kSbKZYA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_caTxBEPHEeuBrN5kSbKZYA" name="use action card" type="_DWnfgEPGEeuBrN5kSbKZYA" association="_caTxAEPHEeuBrN5kSbKZYA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_0bMXIEPHEeuBrN5kSbKZYA" name="User Interface"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5-3bEEPHEeuBrN5kSbKZYA" memberEnd="_5-3bE0PHEeuBrN5kSbKZYA _5-3bFEPHEeuBrN5kSbKZYA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5-3bEUPHEeuBrN5kSbKZYA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5-3bEkPHEeuBrN5kSbKZYA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5-3bE0PHEeuBrN5kSbKZYA" name="game components" type="_eC2RkEPGEeuBrN5kSbKZYA" association="_5-3bEEPHEeuBrN5kSbKZYA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5-3bFEPHEeuBrN5kSbKZYA" name="display hands" type="_AdG7wEPGEeuBrN5kSbKZYA" association="_5-3bEEPHEeuBrN5kSbKZYA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_cDfXAEPIEeuBrN5kSbKZYA" memberEnd="_cDf-EkPIEeuBrN5kSbKZYA _cDf-E0PIEeuBrN5kSbKZYA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cDf-EEPIEeuBrN5kSbKZYA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cDf-EUPIEeuBrN5kSbKZYA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_cDf-EkPIEeuBrN5kSbKZYA" name="game logic" type="_ynczgEPFEeuBrN5kSbKZYA" association="_cDfXAEPIEeuBrN5kSbKZYA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_cDf-E0PIEeuBrN5kSbKZYA" name="end turn early" type="_Mn_5YEPIEeuBrN5kSbKZYA" association="_cDfXAEPIEeuBrN5kSbKZYA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0YkEcEPIEeuBrN5kSbKZYA" memberEnd="_0YkrgEPIEeuBrN5kSbKZYA _0YkrgUPIEeuBrN5kSbKZYA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0YkEcUPIEeuBrN5kSbKZYA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0YkEckPIEeuBrN5kSbKZYA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0YkrgEPIEeuBrN5kSbKZYA" name="game logic" type="_ynczgEPFEeuBrN5kSbKZYA" association="_0YkEcEPIEeuBrN5kSbKZYA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0YkrgUPIEeuBrN5kSbKZYA" name="quit" type="_seTo0EO2EeuBrN5kSbKZYA" association="_0YkEcEPIEeuBrN5kSbKZYA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="__0WyUEPIEeuBrN5kSbKZYA" name="User"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_EnwP4EPJEeuBrN5kSbKZYA" name="&lt;&lt;include>>" client="__0WyUEPIEeuBrN5kSbKZYA" supplier="_HZBGUEO4EeuBrN5kSbKZYA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_WGbGMEPJEeuBrN5kSbKZYA" name="&lt;&lt;include>>" client="__0WyUEPIEeuBrN5kSbKZYA" supplier="_25rNwEOxEeuBrN5kSbKZYA"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_cKYMsEPJEeuBrN5kSbKZYA" name="User"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_ewQp0EPJEeuBrN5kSbKZYA" name="&lt;&lt;include>>" client="_cKYMsEPJEeuBrN5kSbKZYA" supplier="_nkCtQEPBEeuBrN5kSbKZYA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_GzDNUEPKEeuBrN5kSbKZYA" memberEnd="_GzD0YkPKEeuBrN5kSbKZYA _GzD0Y0PKEeuBrN5kSbKZYA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GzD0YEPKEeuBrN5kSbKZYA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GzD0YUPKEeuBrN5kSbKZYA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GzD0YkPKEeuBrN5kSbKZYA" name="game components" type="_9opYcEO3EeuBrN5kSbKZYA" association="_GzDNUEPKEeuBrN5kSbKZYA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GzD0Y0PKEeuBrN5kSbKZYA" name="prompt action card use" type="_xms4QEOxEeuBrN5kSbKZYA" association="_GzDNUEPKEeuBrN5kSbKZYA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Q4sVsEPMEeuBrN5kSbKZYA" name="&lt;&lt;include>>" client="_dTDG8EOzEeuBrN5kSbKZYA" supplier="_Ac7t4EPMEeuBrN5kSbKZYA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_fJtkQEPMEeuBrN5kSbKZYA" memberEnd="_fJuLUEPMEeuBrN5kSbKZYA _fJuLUUPMEeuBrN5kSbKZYA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fJtkQUPMEeuBrN5kSbKZYA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fJtkQkPMEeuBrN5kSbKZYA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_fJuLUEPMEeuBrN5kSbKZYA" name="game components" type="_9opYcEO3EeuBrN5kSbKZYA" association="_fJtkQEPMEeuBrN5kSbKZYA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_fJuLUUPMEeuBrN5kSbKZYA" name="prompt action card use" type="_Ac7t4EPMEeuBrN5kSbKZYA" association="_fJtkQEPMEeuBrN5kSbKZYA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_iv19cEPMEeuBrN5kSbKZYA" memberEnd="_iv19c0PMEeuBrN5kSbKZYA _iv19dEPMEeuBrN5kSbKZYA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iv19cUPMEeuBrN5kSbKZYA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iv19ckPMEeuBrN5kSbKZYA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_iv19c0PMEeuBrN5kSbKZYA" name="gamelogic" type="_yDJKYEO2EeuBrN5kSbKZYA" association="_iv19cEPMEeuBrN5kSbKZYA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_iv19dEPMEeuBrN5kSbKZYA" name="select turn actions" type="_PThbkEO0EeuBrN5kSbKZYA" association="_iv19cEPMEeuBrN5kSbKZYA"/>
+  </packagedElement>
+</uml:Model>
