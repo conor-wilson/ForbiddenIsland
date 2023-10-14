@@ -9,7 +9,7 @@ boardgame](https://boardgamegeek.com/boardgame/65244/forbidden-island) that coul
 
 This project was a real highlight of our degree, and was the first time either of us had worked (or attempted to work)
 with professional programming principles in mind. Since then, we have both become professional Software Engineers, and
-I (Conor) have decided to return to this project as a side project, and I intend to develop it into a desktop 
+I (Conor) have decided to return to this project as a side project. I intend to develop it into a desktop 
 application for a bit of fun. 
 
 Unfortunately, due to both of our university emails being no-longer available (something that we were assured by the
