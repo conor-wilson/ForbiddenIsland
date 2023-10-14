@@ -1,18 +1,16 @@
 module ForbiddenIsland {
-	exports testSuite.testCards;
-	exports gameplay.special;
-	exports cards;
-	exports players;
-	exports testSuite;
-	exports players.roles;
-	exports enums;
-	exports gameplay.setup;
-	exports ui;
-	exports testSuite.playerRoles;
-	exports board;
-	exports gameplay;
-	exports testSuite.testSetups;
+//    exports javaSwingTutorial;
+    exports gameplay.special;
+    exports cards;
+//	exports uix;
+    exports players;
+    exports players.roles;
+    exports enums;
+    exports gameplay.setup;
+    exports ui;
+    exports board;
+    exports gameplay;
 
-	requires java.desktop;
-    requires junit;
+    requires java.desktop;
+//    requires junit;
 }
