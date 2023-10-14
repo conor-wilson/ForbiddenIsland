@@ -1,6 +1,6 @@
 # Forbidden-Island
 
-# Project Background Information
+## Project Background Information
 This project began life as a group project by Conor Wilson (me) and Robert Riordan for their end-of-semester project in
 the ***Software Engineering (COMP41670)*** module at University College Dublin. This module was completed as part of our
 journey to completing our ME degree in Electronic and Computer Engineering, and received an A grade when it was
@@ -27,7 +27,7 @@ the future as this side project evolves.
 
 Authors: Robert Riordan and Conor Wilson
 
-# How to play
+## How to play
 
 1. Run src/gameplay/ForbiddenIsland.java .
 2. When prompted, provide the number of players playing.
@@ -39,11 +39,11 @@ Authors: Robert Riordan and Conor Wilson
 
 Your starting position is based on your role and you will start with 2 treasure cards.
 
-# Rules
+### Rules
 
 Your goal is to work as a team to escape the Forbidden Island with all the treasures. While you do this the Island will slowly sink, making you task increasingly difficult.
 
-## On your turn
+### On your turn
 
 You can take up to 3 actions on your turn.
 
@@ -56,15 +56,15 @@ These are:
 
 Once you have completed these actions you will draw treasure cards and flood cards.
 
-### Moving
+#### Moving
 
 You can move on any tile which has not sunk. You may only move horizontally or vertically.
 
-### Shoring up
+#### Shoring up
 
 You can shore up the tile you are currently on or any adjacent tile. This will dry a flooded tile. You cannot shore up a sunken tile; a sunken tile has been lost and you'll have to work around it.
 
-### Capturing a treasure
+#### Capturing a treasure
 
 To capture a treasure a player must:
 
@@ -72,37 +72,37 @@ To capture a treasure a player must:
   * These are marked on the board with the treasure you will find there.
 * Discard 4 matching treasure cards.
 
-### Giving another player treasure cards
+#### Giving another player treasure cards
 
 You can give treasure cards to any other player who is on the same till as you. You cannot give special action cards to other players.
 
-## Drawing treasure cards
+### Drawing treasure cards
 
 You cannot have more than 5 cards in your hand. If you have more than 5 cards in your hand you will be asked to discard back down to the hand limit. If you discard a special action card you can use it too.
 
 If you draw a waters rise card it will be immediately discarded. The water level will increase and any discarded flood cards will be shuffled and placed back at the top of the flood deck draw pile.
 
-## Drawing flood cards
+### Drawing flood cards
 
 The number of flooded cards drawn is related to the water level. When a flood card is drawn the corresponding tile is flooded if it is dry or sunken if it is flooded.
 
-## Special action cards
+### Special action cards
 
 There are 2 types of special action cards in the treasure deck. These can be used at any time and take no actions.
 
-### Helicopter lift
+#### Helicopter lift
 
 Move any number of players who are on the same tile to any other tile on the board.
 
-### Sandbag
+#### Sandbag
 
 Shore up any tile on the board.
 
-# Winning
+## Winning
 
 Gather all the players on Fools Landing, with all the treasures, and escape using a Helicopter Lift card.
 
-# Losing
+## Losing
 
 There are a number of ways to lose
 
